@@ -49,6 +49,6 @@ with open('/home/ratnesh/Desktop/AOBD_Recommendor/Candidate Profile Data/data_cs
     #print 'Combined Weight:',comb_weight_skill
     output = sorted(comb_weight_skill, key=lambda x: x[1],reverse=True)
     #print comb_weight_skill.sort(key=operator.itemgetter(1))
-    with open("Akhil_Com_Sys_Man_skills.csv", "w") as f:
+    with open("Comp_Sys_Man_skills.csv", "w") as f:
         writer = csv.writer(f,delimiter=',')
         writer.writerow(output)
